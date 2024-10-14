@@ -1,0 +1,11 @@
+---
+triple:          'arm64-apple-darwin'
+binary-path:     '/Users/kevin/coda-c-j12/liste_chaine/exo2/main'
+relocations:
+  - { offset: 0x26, size: 0x8, addend: 0x0, symName: _ajouter_nombre, symObjAddr: 0x0, symBinAddr: 0x1000039EC, symSize: 0x54 }
+  - { offset: 0x79, size: 0x8, addend: 0x0, symName: _ajouter_nombre, symObjAddr: 0x0, symBinAddr: 0x1000039EC, symSize: 0x54 }
+  - { offset: 0xB9, size: 0x8, addend: 0x0, symName: _afficher_nombres, symObjAddr: 0x54, symBinAddr: 0x100003A40, symSize: 0x6C }
+  - { offset: 0xEB, size: 0x8, addend: 0x0, symName: _effacer_ecran, symObjAddr: 0xC0, symBinAddr: 0x100003AAC, symSize: 0x1C }
+  - { offset: 0x100, size: 0x8, addend: 0x0, symName: _inserer_apres, symObjAddr: 0xDC, symBinAddr: 0x100003AC8, symSize: 0x7C }
+  - { offset: 0x140, size: 0x8, addend: 0x0, symName: _main, symObjAddr: 0x158, symBinAddr: 0x100003B44, symSize: 0x2A8 }
+...
